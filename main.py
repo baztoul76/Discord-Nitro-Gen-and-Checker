@@ -8,16 +8,16 @@ try: # Check if the requrements have been installed
 except ImportError: # If it chould not be installed
     # input(f"Module discord_webhook not installed, to install run '{'py -3' if os.name == 'nt' else 'python3.8'} -m pip install discord_webhook'\nPress enter to exit") # Tell the user it has not been installed and how to install it
     print("Module 'discord_webhook' not installed\ninstalling...")
-    os.system(f"{"py -3" if os.name == "nt" else "python3.8"} -m pip install discord_webhook")
-	input('press enter to exit and launch again this script...')
+    os.system(f"{'py -3' if os.name == 'nt' else 'python3.8'} -m pip install discord_webhook")
+    input('press enter to exit and launch again this script...')
     exit() # Exit the program
 try: # Setup try statement to catch the error
     import requests # Try to import requests
 except ImportError: # If it has not been installed
     # input(f"Module requests not installed, to install run '{'py -3' if os.name == 'nt' else 'python3.8'} -m pip install requests'\nPress enter to exit")# Tell the user it has not been installed and how to install it
     print("Module 'requests' not installed\ninstalling...")
-	os.system(f"{'py -3' if os.name == 'nt' else 'python3.8'} -m pip install requests")
-	input("press enter to exit and launch again this script...")
+    os.system(f"{'py -3' if os.name == 'nt' else 'python3.8'} -m pip install requests")
+    input("press enter to exit and launch again this script...")
     exit() # Exit the program
 
 class NitroGen: # Initialise the class
@@ -27,13 +27,7 @@ class NitroGen: # Initialise the class
     def main(self): # The main function contains the most important code
         os.system('cls' if os.name == 'nt' else 'clear') # Clear the screen
 
-        print("ANONIX") """ █████╗ ███╗   ██╗ ██████╗ ███╗   ██╗██╗██╗  ██╗
-██╔══██╗████╗  ██║██╔═══██╗████╗  ██║██║╚██╗██╔╝
-███████║██╔██╗ ██║██║   ██║██╔██╗ ██║██║ ╚███╔╝
-██╔══██║██║╚██╗██║██║   ██║██║╚██╗██║██║ ██╔██╗
-██║  ██║██║ ╚████║╚██████╔╝██║ ╚████║██║██╔╝ ██╗
-╚═╝  ╚═╝╚═╝  ╚═══╝ ╚═════╝ ╚═╝  ╚═══╝╚═╝╚═╝  ╚═╝
-                                                        """ # Print the title card
+        print("ANONIX") # Print the title card
         time.sleep(2) # Wait a few seconds
         self.slowType("Made by: Drillenissen#4268 && Benz#4947", .02) # Print who developed the code
         time.sleep(1) # Wait a little more
